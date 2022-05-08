@@ -1,6 +1,6 @@
 body{
-    background-color: #001d3d;
     color:white;
+    background-color: #036b52;
 }
 h1{
     text-align: center;
@@ -9,10 +9,13 @@ h1{
     text-align: right;
     height: 300px;
     width: 1200px;
+
 }
 #descricao-imagem{
     font-size: 9px;
     text-align: right;
+
+ 
 
 }
 .list{
@@ -36,7 +39,7 @@ p{
 
 }
 .assertividade{
-    font-size: 5px;
+    font-size: 5px
 }
 .git{
     font-size: 50px;
