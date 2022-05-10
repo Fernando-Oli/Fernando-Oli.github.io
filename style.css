@@ -1,46 +1,9 @@
 body{
-    color:white;
-    background-color: #036b52;
-}
-h1{
-    text-align: center;
-}
-#imagem-inicio{
-    text-align: right;
-    height: 300px;
-    width: 1200px;
-
-}
-#descricao-imagem{
-    font-size: 9px;
-    text-align: right;
-
- 
-
-}
-.list{
-    text-align: left;
+    background-color: #4b538b;
 }
 
-p{
-    font-family: 'Times New Roman', Times, serif;
-}
-#meu-nome{
-    font-family: sans-serif;
-}
-#brasilia-name{
-    text-decoration: underline;
-}
-.javascript{
-    font-size: 30px;
-}
-.linux{
-    font-size: 20px;
-
-}
-.assertividade{
-    font-size: 5px
-}
-.git{
-    font-size: 50px;
+#image{
+    border-radius: 150px;
+    max-width: 200px;
+    border: 2px solid #15191d;
 }
