@@ -1,48 +1,33 @@
-body{
-    background-color: #4b538b;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-#image{
-    border-radius: 150px;
-    max-width: 200px;
-    border: 2px solid #15191d;
-    margin-left: 500px;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    margin-bottom: 2%;
-}
-
-.quadrado{
-    height: 600px;
-    width: 30%;
-    background-color: #f7a21b;
-    border-radius:2%;
-    margin-left: auto;
-    margin-right: auto;
-    line-height: 150%;
-}
-.titulo{
-    padding-top: 5%;
-}
-.jornada{
-    padding-top: 5%;
-    padding-left: 0%;
-    margin-left: 0px;
-    line-height: 150%;
-    padding-left: 10%;
-    padding-right: 10%;
-}
-.meses{
-    text-transform: uppercase;
-    font-weight: bolder;
-    padding-bottom: 7%;
-    
-}
-h1, h2, h3{
+header {
     text-align: center;
+    margin-top: 1%;
 }
-.margem{
-    padding-left: 10%;
+
+body {
+    color: rgb(255,255,255);
+    background-color:#240055;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#input-div {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+    justify-content: center;
+}
+
+#anime-infos {
+    margin-top: 2%;
+    font-size: larger;
 }

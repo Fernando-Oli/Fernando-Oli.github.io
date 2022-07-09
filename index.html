@@ -3,41 +3,32 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
-    <title>Meu portfólio</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
-  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de animes</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+<link rel="stylesheet" href="style.css">
 </head>
 <body>
-    
-    <div id =>
-        <!--fotos e nome Seccão 1 -->
-        <img id = "image" src="foto.jpeg">
-        <h1>Fernando Luis Rodrigues de Oliveira</h1>
-    </div>
-    <div class="quadrado">
-        <!--quadrado com experiencia profissional-->
-        
-        <!--listas de habilidades-->
-        <h2 class="titulo">Lista de habilidades</h2>
-        <div class="margem">
-        Javascript
-        HTML e CSS
-        Comunicação assertiva
-        Autogestão
+    <header class="">
+        <div>
+            <h1>Anime Search</h1>
         </div>
-
-        <!--Jornada na Trybe-->
-        <h3>Jornada Trybe</h3>
-        <div class="jornada">
-            <span class="meses">Abril</span>: Entrei na Trybe<br>
-            <span class="meses">Maio</span>: Fundamentos em Desenvolvimento Web, estrutura Linux e MacOS, Git e Github, HTML e CSS.
-               
+    </header>
+    <main id="main">
+        <div class= "" id ="input-div">
+            <input type="text" class="text-center" id="input" aria-describedby="basic-addon3">
+            <input class="btn btn-primary" type="button" value="Search" id="button">
         </div>
-
-
-    </div>
-
-
+        <div>
+            <img id = "anime-image" src="" alt="anime" class="rounded mx-auto d-block">
+        </div>
+        <div class = "container" id="anime-infos">
+            <p class="text-center" id="anime-title">Attack of Titan</p>
+            <p class="text-center" id="genres">Acao</p>
+            <p class="text-center" id="releashed-date">2018</p>
+            <p class="text-center" id="synopsis"> Anime de gigante comendo gente</p>
+        </div>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
