@@ -103,12 +103,13 @@ export function Header() {
       <AnimatePresence>
         {menuOpen && (
           <motion.div
-            initial={{ opacity: 0, height: 0 }}
-            animate={{ opacity: 1, height: "auto" }}
-            exit={{ opacity: 0, height: 0 }}
-            className="mt-4 overflow-hidden rounded-lg border-t border-primary/20 bg-background/98 md:hidden"
+            initial={{ opacity: 0, scaleY: 0 }}
+            animate={{ opacity: 1, scaleY: 1 }}
+            exit={{ opacity: 0, scaleY: 0 }}
+            transition={{ duration: 0.2 }}
+            className="absolute top-full left-0 right-0 mt-2 overflow-hidden rounded-lg border border-primary/20 bg-background/98 p-2 md:hidden origin-top"
           >
-            <div className="flex flex-col px-6 py-4 gap-4">
+            <div className="flex flex-col gap-2">
               {navLinks.map((link) => (
                 <a
                   key={link.href}
@@ -117,8 +118,9 @@ export function Header() {
                     e.preventDefault();
                     handleNavClick(link.href);
                   }}
+                  title={link.label}
                   aria-label={`Ir para a seção ${link.label}`}
-                  className="block w-full cursor-pointer border-none border-b border-white/5 bg-none py-2 text-left font-sans text-base font-medium text-muted decoration-transparent"
+                  className="block w-full cursor-pointer rounded-md bg-none px-4 py-3 text-left font-sans text-base font-medium text-muted decoration-transparent transition-colors hover:bg-primary/10 hover:text-primary"
                 >
                   {link.label}
                 </a>
